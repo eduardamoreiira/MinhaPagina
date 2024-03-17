@@ -1,0 +1,87 @@
+ 
+ body{                            /* Estilo utilizado no corpo do site */
+    font-family: 'Lucida Sans', sans-serif;
+    color:rgb(56, 6, 104);
+    font-size:15px;             /* Tamanho da fonte */
+    text-align: center;         /* Define a posição do texto no centro */
+    padding: 0px;
+    margin: 0px;
+    background-color: #E0C4DF;
+}
+#cabecalho{
+    width: 100%;                /* Largura 100% da página */
+    padding-top: 1cm;
+    height: 100px;              /* Altura */
+    border: 1px solid;   /* Borda */
+    background: #E0C4DF;        /* Cor de fundo do cabeçalho */
+    font-size: 30px;
+}
+#menu{
+    float: left;                 /* Posição do Menu, esquerdo */
+    line-height: 5;
+    min-height: calc(100vh - 150px);           /* Tamanho mínimo 300 píxels */
+    width: 200px;                /* Largura */
+    border: 1px solid;  /* Borda */
+    background: #E0C4DF;         /* Cor de fundo do menu */
+}
+#conteudo{
+    width: 100%;                  /* Largura 100% da página */
+    min-height: calc(100vh - 150px);            /* Tamanho mínimo 300 píxels */
+    border: 1px solid;   /* Borda */
+    background: #E0C4DF;          /* Cor de fundo do conteúdo */
+    padding: 8px, 4px, 1px;
+    padding-top: 0px;
+}
+#rodape{
+    width: 100%;                 /* Largura 100% da página */
+    height: 50px;                /* Altura do rodapé */
+    border: 1px solid ;    /* Borda */
+    background-color: #E0C4DF;         /* Cor de fundo do rodapé */
+    text-align: center;
+    padding-top: 1cm;
+}
+
+#img{
+    border-image: 6px solid ;
+    border-image: color purple;
+    border-radius: 6px;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: #E0C4DF;
+}
+
+/*li {
+float: left;
+}*/
+
+li a {
+display: block;
+color:rgb(56, 6, 104);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+border: 1px solid #E0C4DF;
+}
+
+li a:hover {
+background-color: #8a7c9b;
+border: 1px solid #ccc;
+border-radius: 10px;
+color: #fff;
+}
+
+input[type="submit"] {
+    text-align: center;
+    background-color: #8a7c9b;
+    border: none;
+    border-radius: 8px;
+    color:black;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
